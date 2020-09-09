@@ -1,0 +1,47 @@
+nav{
+	width: 100vw;
+	text-align: center;
+}
+
+button{
+	font-size: 1em;
+	margin: 10px;
+}
+
+body{
+	line-height: 2;
+}
+
+p{
+	font-family: sans-serif;
+	text-align: center;
+	display: inline;
+}
+
+#images{
+	flex: 1;
+	text-align: center;
+}
+
+img{
+	margin: 20px;
+	border: 10px double red;
+	max-width: inherit;
+	flex: 1;
+	max-width: 90vw;
+}
+
+#container{
+	display: flex;
+	flex-direction: column;
+}
+
+#large{
+	flex: 1;
+}
+
+#images img{
+	max-width: 150px;
+	flex: 1;
+	box-shadow: 10px 10px 10px lightgrey;
+}
